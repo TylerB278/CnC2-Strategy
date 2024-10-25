@@ -1,5 +1,5 @@
 {
-  "siteTitle": "Website",
+  "siteTitle": "Cards & Castles 2 Strategy Guide",
   "position": {
     "discriminant": "top",
     "value": {
@@ -8,16 +8,16 @@
     }
   },
   "appearance": {
-    "blurBehind": true
+    "blurBehind": false
   },
   "sizes": {
-    "topBarHeight": "60px",
-    "topBarPadding": "1rem",
-    "menuPadding": "1rem",
+    "topBarHeight": "120px",
+    "topBarPadding": "120px",
+    "menuPadding": "120px",
     "subItemIndent": "10px"
   },
   "colors": {
-    "backgroundColor": "#9cacff87",
+    "backgroundColor": "#9cacff99",
     "menuHoverColor": "#ffffff80",
     "dropdownColor": "#0a0057ed",
     "dropdownHoverColor": "#ffffff80"
