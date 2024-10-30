@@ -17,7 +17,7 @@
     "fontFamily": "fontStack1",
     "fontWeight": "800",
     "fontStyle": "normal",
-    "fontSize": "2rem",
+    "fontSize": "6rem",
     "lineHeight": 1.5,
     "color": "#000000",
     "marginTop": "1em",
@@ -35,7 +35,7 @@
   },
   "h3": {
     "fontFamily": "fontStack2",
-    "fontWeight": "700",
+    "fontWeight": "500",
     "fontStyle": "normal",
     "fontSize": "1.17NaNrem",
     "lineHeight": 1.25,

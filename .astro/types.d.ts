@@ -151,6 +151,20 @@ declare module 'astro:content' {
   collection: "pages";
   data: any
 } & { render(): Render[".mdoc"] };
+"factions-and-roles.mdoc": {
+	id: "factions-and-roles.mdoc";
+  slug: "factions-and-roles";
+  body: string;
+  collection: "pages";
+  data: any
+} & { render(): Render[".mdoc"] };
+"general-guides.mdoc": {
+	id: "general-guides.mdoc";
+  slug: "general-guides";
+  body: string;
+  collection: "pages";
+  data: any
+} & { render(): Render[".mdoc"] };
 "hidden-page.mdoc": {
 	id: "hidden-page.mdoc";
   slug: "hidden-page";
