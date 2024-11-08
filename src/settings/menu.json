@@ -1,5 +1,5 @@
 {
-  "siteTitle": "Cards & Castles 2 Strategy Guide",
+  "siteLogo": "../assets/images/general/siteLogo.png",
   "position": {
     "discriminant": "top",
     "value": {
@@ -17,9 +17,9 @@
     "subItemIndent": "10px"
   },
   "colors": {
-    "backgroundColor": "#9cacff85",
+    "backgroundColor": "#f5fcff00",
     "menuHoverColor": "#ffffff80",
-    "dropdownColor": "#9cacff85",
+    "dropdownColor": "#9cacff00",
     "dropdownHoverColor": "#ffffff80"
   },
   "typography": {

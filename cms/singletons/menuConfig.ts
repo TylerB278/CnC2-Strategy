@@ -6,10 +6,12 @@ export const menuConfig = singleton({
   format: { data: "json" },
   path: "src/settings/menu",
   schema: {
-    siteTitle: fields.text({
-      label: "Site Title",
+    siteLogo: fields.image({
+      label: "Header Image",
       description:
-        "This appears on all menu types at the top left of the menu area",
+        "Upload the image you want in the site header",
+      directory: "src/assets/images/general",
+      publicPath: "../assets/images/general"
     }),
     position: fields.conditional(
       fields.select({

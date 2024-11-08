@@ -5,6 +5,7 @@ import menuItems from "../../helpers/menuItems";
 import { settings } from "../../helpers/settingsHelper";
 import { fontRules } from "../../helpers/fontRuleBuilder";
 import { formatCssRules } from "../../helpers/formatCssRules";
+import { getImage } from "astro:assets";
 const menuItemCount = menuItems.length;
 const fontSettings = fontRules(settings.menu.typography);
 const cssRules = {
@@ -16,6 +17,24 @@ const cssRules = {
   blurStyle: settings.menu.appearance.blurBehind ? "blur(100px)" : "none",
   ...fontSettings,
 };
+
+const imagePath = settings.menu.siteLogo;
+const images = import.meta.glob<{ default: ImageMetadata }>(
+  "./../../**/*.{jpeg,jpg,png,gif}"
+);
+
+if (!images[imagePath]) {
+}
+let siteLogo = "";
+if (images && images[imagePath]) {
+  const menuImage = await getImage({
+    src: images[imagePath](),
+    width: 336,
+    height: 92,
+    format: "png",
+  });
+  siteLogo = menuImage.src;
+}
 ---
 
 <style>
@@ -288,10 +307,10 @@ const cssRules = {
   ]}
 >
   {
-    settings.menu.siteTitle && (
+    settings.menu.siteLogo && (
       <div class="top-bar-text-wrapper">
         <a class="unstyled-link" href="/">
-          <p class="top-bar-text">{settings.menu.siteTitle}</p>
+          <img class="logo" src={settings.menu.siteLogo} />
         </a>
       </div>
     )

@@ -7,6 +7,12 @@ customNavigation:
   value: '1729819012329'
 ---
 {% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp3aWR0aDogMTAwJTsNCg==" %}
+{% MultiColumn
+   justifyContent="center"
+   alignItems="flex-start"
+   flexDirection="row"
+   gap="10px" /%}
+
 # General Guides
 
 {% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
@@ -18,10 +24,27 @@ Below are a few general strategy guides. These are what I believe to be the most
    customCSS="Y29sb3I6YmxhY2s7DQp3aWR0aDogMTAwJTsNCm1hcmdpbjoxMDBweDsNCg==" %}
 ## Board Control
 
+{% MultiColumn
+   justifyContent="center"
+   alignItems="flex-start"
+   flexDirection="row"
+   gap="10px" %}
+{% Column targetWidth="40%" flexGrow=false %}
 {% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
 The first and most important thing you need to consider at all times is your board control. If your opponents has all their units on the board it may not be the best time to spend the turn setting up and playing it slow. If you focus on getting to a positive board state then you can pull off all of your biggest combos and strategies.
 {% /CustomCSSWrapper %}
 
+{% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
+In the above example the opponent is advancing with units and the player has the choice of either using 2 Celestial Archives and drawing a load of cards or Sanctifying* and using the Flame Blast card to clear the board. It may seem tempting to draw an entire new hand and let the opponent have an additional turn to advance. But it is often better to take the board clear here with Flame Blast as even if you get some good cards from the draw there’s always a chance that you wont get enough to clear the opponent’s advance especially with the extra turn they have to pile up and suddenly the game can snowball out of your control. This is where maintaining Board Control and resetting to neutral with Flame Blast will give you a better chance of starting your own offense.
+{% /CustomCSSWrapper %}
+
+{% CustomCSSWrapper
+   customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7DQpzY2FsZTo5MCU7DQo=" %}
+\*A card with the “Sanctify” keyword allows you to pay an extra price to upgrade the card. In this case upgrading the card allows it to spread damage across the entire board but would also leave you with no gold left
+{% /CustomCSSWrapper %}
+{% /Column %}
+
+{% Column targetWidth="40%" flexGrow=false %}
 {% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
 {% MultiColumn
    justifyContent="center"
@@ -45,15 +68,8 @@ The first and most important thing you need to consider at all times is your boa
    image="/general-guides/Board-Control-Example.png"
    altText="Example of board control" /%}
 {% /CustomCSSWrapper %}
-
-{% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
-In the above example the opponent is advancing with units and the player has the choice of either using 2 Celestial Archives and drawing a load of cards or Sanctifying* and using the Flame Blast card to clear the board. It may seem tempting to draw an entire new hand and let the opponent have an additional turn to advance. But it is often better to take the board clear here with Flame Blast as even if you get some good cards from the draw there’s always a chance that you wont get enough to clear the opponent’s advance especially with the extra turn they have to pile up and suddenly the game can snowball out of your control. This is where maintaining Board Control and resetting to neutral with Flame Blast will give you a better chance of starting your own offense.
-{% /CustomCSSWrapper %}
-
-{% CustomCSSWrapper
-   customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7DQpzY2FsZTo5MCU7DQo=" %}
-\*A card with the “Sanctify” keyword allows you to pay an extra price to upgrade the card. In this case upgrading the card allows it to spread damage across the entire board but would also leave you with no gold left
-{% /CustomCSSWrapper %}
+{% /Column %}
+{% /MultiColumn %}
 {% /CustomCSSWrapper %}
 
 {% CustomCSSWrapper
