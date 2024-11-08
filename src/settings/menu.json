@@ -3,8 +3,8 @@
   "position": {
     "discriminant": "top",
     "value": {
-      "u": "1712840379550",
-      "alwaysDropdown": false
+      "u": "1730321370707",
+      "alwaysDropdown": true
     }
   },
   "appearance": {
@@ -12,14 +12,14 @@
   },
   "sizes": {
     "topBarHeight": "120px",
-    "topBarPadding": "120px",
+    "topBarPadding": "50px",
     "menuPadding": "120px",
     "subItemIndent": "10px"
   },
   "colors": {
-    "backgroundColor": "#9cacff99",
+    "backgroundColor": "#9cacff85",
     "menuHoverColor": "#ffffff80",
-    "dropdownColor": "#0a0057ed",
+    "dropdownColor": "#9cacff85",
     "dropdownHoverColor": "#ffffff80"
   },
   "typography": {

@@ -10,8 +10,8 @@
     "fontSize": "1rem",
     "lineHeight": 1.5,
     "color": "#000000",
-    "marginTop": "0.5em",
-    "marginBottom": "0.5rem"
+    "marginTop": "1em",
+    "marginBottom": "1em"
   },
   "h1": {
     "fontFamily": "fontStack1",
@@ -21,7 +21,7 @@
     "lineHeight": 1.5,
     "color": "#000000",
     "marginTop": "1em",
-    "marginBottom": "2em"
+    "marginBottom": "1em"
   },
   "h2": {
     "fontFamily": "fontStack1",
@@ -30,8 +30,8 @@
     "fontSize": "1.5rem",
     "lineHeight": 1.25,
     "color": "#000000",
-    "marginTop": "0.5em",
-    "marginBottom": "0.5em"
+    "marginTop": "1em",
+    "marginBottom": "1em"
   },
   "h3": {
     "fontFamily": "fontStack2",
