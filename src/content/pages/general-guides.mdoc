@@ -21,12 +21,12 @@ Below are a few general strategy guides. These are what I believe to be the most
 {% /CustomCSSWrapper %}
 
 {% CustomCSSWrapper
-   customCSS="Y29sb3I6YmxhY2s7DQp3aWR0aDogMTAwJTsNCm1hcmdpbjoxMDBweDsNCg==" %}
+   customCSS="Y29sb3I6YmxhY2s7DQp3aWR0aDoxMDAlOw0KbWFyZ2luOjMwcHg7DQo=" %}
 ## Board Control
 
 {% MultiColumn
-   justifyContent="center"
-   alignItems="flex-start"
+   justifyContent="flex-start"
+   alignItems="center"
    flexDirection="row"
    gap="10px" %}
 {% Column targetWidth="40%" flexGrow=false %}
@@ -48,51 +48,64 @@ In the above example the opponent is advancing with units and the player has the
 {% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
 {% MultiColumn
    justifyContent="center"
-   alignItems="flex-start"
+   alignItems="center"
    flexDirection="row"
-   gap="10px" %}
-{% Column targetWidth="400px" flexGrow=false %}
+   gap="0px" %}
+{% Column targetWidth="40%" flexGrow=false %}
 {% ImagePopout
    image="/general-guides/Celestial-Archives.png"
    altText="Celestial Archives Card" /%}
 {% /Column %}
 
-{% Column targetWidth="400px" flexGrow=false %}
+{% Column targetWidth="40%" flexGrow=false %}
 {% ImagePopout
    image="/general-guides/Flame-Blast.png"
    altText="Flame Blast Card" /%}
 {% /Column %}
 {% /MultiColumn %}
 
+{% CustomCSSWrapper customCSS="c2NhbGU6OTUlOw==" %}
 {% ImagePopout
    image="/general-guides/Board-Control-Example.png"
    altText="Example of board control" /%}
+{% /CustomCSSWrapper %}
 {% /CustomCSSWrapper %}
 {% /Column %}
 {% /MultiColumn %}
 {% /CustomCSSWrapper %}
 
 {% CustomCSSWrapper
-   customCSS="Y29sb3I6YmxhY2s7DQp3aWR0aDogMTAwJTsNCm1hcmdpbjoxMDBweDs=" %}
+   customCSS="Y29sb3I6YmxhY2s7DQp3aWR0aDogMTAwJTsNCm1hcmdpbjozMHB4Ow==" %}
 ## Combos/Synergy
 
+{% MultiColumn
+   justifyContent="flex-start"
+   alignItems="center"
+   flexDirection="row"
+   gap="10px" %}
+{% Column targetWidth="40%" flexGrow=false %}
 {% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
 One central part of many decks is combos, with synergies being present in all top level decks being the little cousin of combos. Cards have “Synergy” when the effects of those cards play off of one another. Combos are when these synergies are used for more central and dominating strategies in the overall game plan of a player’s deck.
 {% /CustomCSSWrapper %}
 
 {% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
+In the example to the right I have a synergy between the two cards you see above. Northwood Ranger can deal 3 damage across the board but only when a wounded unit is on the field, the Wounded Deer spawns itself as a wounded unit and thus synergizes with Ranger since it can allow it to immediately activate it’s effect. This on the surface seems strong and like the best play here, so lets see the result of playing it.
+{% /CustomCSSWrapper %}
+{% /Column %}
+
+{% Column targetWidth="40%" flexGrow=false %}
 {% MultiColumn
    justifyContent="center"
    alignItems="flex-start"
    flexDirection="row"
    gap="10px" %}
-{% Column targetWidth="100px" flexGrow=false %}
+{% Column targetWidth="40%" flexGrow=false %}
 {% ImagePopout
    image="/general-guides/Wounded-Deer.png"
    altText="Wounded Deer card" /%}
 {% /Column %}
 
-{% Column targetWidth="100px" flexGrow=false %}
+{% Column targetWidth="40%" flexGrow=false %}
 {% ImagePopout
    image="/general-guides/Northwood-Ranger.png"
    altText="Northwood Ranger card" /%}
@@ -102,24 +115,31 @@ One central part of many decks is combos, with synergies being present in all to
 {% ImagePopout
    image="/general-guides/Combo-Synergy-Example1.png"
    altText="Example of combo/synergy" /%}
-{% /CustomCSSWrapper %}
+{% /Column %}
+{% /MultiColumn %}
 
 {% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
-In the above example I have a synergy between the two cards you see above. Northwood Ranger can deal 3 damage across the board but only when a wounded unit is on the field, the Wounded Deer spawns itself as a wounded unit and thus synergizes with Ranger since it can allow it to immediately activate it’s effect. This on the surface seems strong and like the best play here, so lets see the result of playing it.
-{% /CustomCSSWrapper %}
-
-{% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
-{% ImagePopout
-   image="/general-guides/Combo-Synergy-Example2.png"
-   altText="Conclusion o fexample for combo/synergy" /%}
-{% /CustomCSSWrapper %}
-
+{% MultiColumn
+   justifyContent="flex-start"
+   alignItems="center"
+   flexDirection="row"
+   gap="5px" %}
+{% Column targetWidth="40%" flexGrow=false %}
 {% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
 As you can see even with good positioning to block my castle this hasn’t really done much to advance my board state. If instead had used the Killer Rabbit card in my hand I could have just gotten rid of the enemy unit and used my combo on the next turn for better value.
 {% /CustomCSSWrapper %}
 
 {% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
 Sometimes it is better to conserve your combo or synergy for a better time. Knowing when to and when not to spend your synergy tools can be a key factor in what games you win.
+{% /CustomCSSWrapper %}
+{% /Column %}
+
+{% Column targetWidth="40%" flexGrow=false %}
+{% ImagePopout
+   image="/general-guides/Combo-Synergy-Example2.png"
+   altText="Conclusion o fexample for combo/synergy" /%}
+{% /Column %}
+{% /MultiColumn %}
 {% /CustomCSSWrapper %}
 {% /CustomCSSWrapper %}
 
