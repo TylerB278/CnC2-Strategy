@@ -263,7 +263,26 @@ fontSpecSets.forEach((pair) => {
     <FloatingEdit />
     <slot />
   </LayoutSwitcher>
+  <script>
+    const scrollHandler = () => {
+    const docElement = document.documentElement;
+    const windowHeight = window.innerHeight;
+    const docHeight = docElement.scrollHeight;
+    const scrollY = window.scrollY;
+    console.log(scrollY);
+      // const offset = (scrollY - element.scrollTop) * 0.5;
+      // const clampedOffset = Math.min(element.clientHeight, offset);
+      const scrollRatio=.17;
+      const offset = scrollY/(docHeight-windowHeight)*windowHeight*scrollRatio;
 
+      // @ts-ignore
+      // element.style.setProperty("--parallaxOffset", `${-clampedOffset}px`);
+      docElement.style.setProperty('--bg-offset',`${-offset}px`)}
+  
+  window.addEventListener("scroll",scrollHandler );
+  scrollHandler();
+
+  </script>
   <script>
     import AOS from "aos";
     import "aos/dist/aos.css"; // You can also use <link> for styles
