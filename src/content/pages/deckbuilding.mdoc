@@ -10,10 +10,22 @@ customNavigation:
    customCSS="Y29sb3I6d2hpdGU7DQp0ZXh0LWFsaWduOmNlbnRlcjsNCndpZHRoOiAxMDAlOw0K" %}
 # Deckbuilding
 
+{% MultiColumn
+   justifyContent="center"
+   alignItems="flex-start"
+   flexDirection="row"
+   gap="10px" %}
+{% Column targetWidth="20%" flexGrow=false /%}
+
+{% Column targetWidth="50%" flexGrow=false %}
 {% CustomCSSWrapper
    customCSS="Y29sb3I6d2hpdGU7CnRleHQtYWxpZ246Y2VudGVyOw==" %}
 ### One of the most unique and interesting parts of C&C2 is it's deckbuilding system. With only two factions outside of Neutral being allowed. in a deck it makes for some very interesting and complicated deckbuilding decisions. While it may seem daunting to make your own deck at first I'm going to share with you a few different things to look for in almost any deck composition.
 {% /CustomCSSWrapper %}
+{% /Column %}
+
+{% Column targetWidth="20%" flexGrow=false /%}
+{% /MultiColumn %}
 {% /CustomCSSWrapper %}
 
 {% CustomCSSWrapper
@@ -31,7 +43,13 @@ Removal is always the first thing you should be making sure you have in your dec
 {% /CustomCSSWrapper %}
 {% /Column %}
 
-{% Column targetWidth="50%" flexGrow=false /%}
+{% Column targetWidth="20%" flexGrow=false %}
+{% ImagePopout image="/deckbuilding/Blaze.png" /%}
+{% /Column %}
+
+{% Column targetWidth="20%" flexGrow=false %}
+{% ImagePopout image="/deckbuilding/Omae-Wa-Mou-Shindeiru.png" /%}
+{% /Column %}
 {% /MultiColumn %}
 {% /CustomCSSWrapper %}
 

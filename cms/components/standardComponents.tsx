@@ -23,6 +23,18 @@ import { layoutGridIcon } from "@keystar/ui/icon/icons/layoutGridIcon";
 // import { fileIcon } from "@keystar/ui/icon/icons/fileIcon";
 
 export const standardComponents = {
+  Factions:block({
+    label:'Factions',
+
+    schema:{
+      factions:fields.array(fields.object({title:fields.text({label:'Title'}),description:fields.text({label:'Description',  multiline: true}),image: fields.image({
+        label: "Thumbnail Image",
+        directory: "src/assets/images",
+        publicPath: "",
+      }),}),{itemLabel: props => props.fields.title.value})
+    }
+  }),
+
   FileLink: inline({
     label: "Link to File",
     icon: fileIcon,

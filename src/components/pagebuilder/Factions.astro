@@ -1,0 +1,102 @@
+---
+import SimpleImageReplace from "./SimpleImageReplace.astro";
+
+const {factions}=Astro.props;
+---
+<div>
+<div class="faction-switch-container">
+    {factions.map((faction,index)=>{
+
+        return <label>
+            <input type="radio" name="factions" class="faction-switch" id={`faction-${index}`} data-target={index}>
+            <SimpleImageReplace src={"../../assets/images"+faction.image} alt="" class="image-tile" />
+        </label>
+        })
+        }
+</div>
+
+<div class="faction-info-container">
+
+
+{factions.map((faction,index)=>{
+
+return <div class="faction-info faction-info-hidden" id={`faction-info-${index}`}>
+    <h2 class="faction-info-title">{faction.title}</h2>
+    <p class="faction-info-description">{faction.description}</p>
+</div>
+})
+}
+</div>
+</div>
+
+<script>
+    const factionInfos = document.querySelectorAll(".faction-info");
+
+    const hideAllFactions = ()=>{
+        factionInfos.forEach((factionInfo)=>{
+            factionInfo.classList.toggle('faction-info-hidden',true)
+        })
+    }
+    const showFaction = (factionId)=>{
+
+        document.querySelector(`#faction-info-${factionId}`)?.classList.toggle('faction-info-hidden',false)
+
+    }
+
+    const handleChange = (e)=>{
+        hideAllFactions();
+        showFaction(e.currentTarget.dataset.target)
+    }
+
+    document.querySelectorAll('.faction-switch').forEach(factionSwitch=>{
+        factionSwitch.addEventListener('change',handleChange)
+    })
+
+
+</script>
+
+<style>
+    *{color:white}
+    .image-tile{
+        max-width:100px;
+    }
+
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+[type=radio] + img {
+  cursor: pointer;
+}
+
+{/* this is how you style the currently selected one */}
+[type=radio]:checked + img {
+
+  outline: 2px solid #f6fcff;
+
+}
+
+.faction-info-hidden{
+    display:none;
+}
+
+.faction-switch-container{
+
+    display:flex;justify-content:center;gap:20px;
+}
+
+p{
+    text-align:center;
+}
+
+h2{
+    text-align:center;
+    
+}
+
+
+</style>

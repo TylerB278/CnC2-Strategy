@@ -1,5 +1,4 @@
 {
-  "siteLogo": "../assets/images/general/siteLogo.png",
   "position": {
     "discriminant": "top",
     "value": {
@@ -19,7 +18,7 @@
   "colors": {
     "backgroundColor": "#f5fcff00",
     "menuHoverColor": "#ffffff80",
-    "dropdownColor": "#9cacff00",
+    "dropdownColor": "#ffffff00",
     "dropdownHoverColor": "#ffffff80"
   },
   "typography": {
@@ -29,7 +28,7 @@
       "fontStyle": "normal",
       "fontSize": "1.5rem",
       "lineHeight": 1,
-      "color": "#0a0057",
+      "color": "#ffffff",
       "marginTop": "0.5rem",
       "marginBottom": "0.5rem"
     },
@@ -49,7 +48,7 @@
       "fontStyle": "normal",
       "fontSize": "1.5rem",
       "lineHeight": 1,
-      "color": "#0a0057",
+      "color": "#ffffff",
       "marginTop": "4px",
       "marginBottom": "4px"
     }
