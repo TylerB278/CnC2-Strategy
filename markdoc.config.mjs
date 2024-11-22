@@ -100,6 +100,12 @@ export default defineMarkdocConfig({
         customClass: { type: String },
       },
     },
+    Factions: {
+      render: component("./src/components/pagebuilder/Factions.astro"),
+      attributes: {
+        factions: { type: Array },
+      },
+    },
     SimpleMultiCol: {
       render: component("./src/components/pagebuilder/SimpleMultiCol.astro"),
       attributes: { customClass: { type: String } },
