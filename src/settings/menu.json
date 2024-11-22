@@ -1,4 +1,5 @@
 {
+  "siteLogo": "src/assets/images/general/siteLogo.png",
   "position": {
     "discriminant": "top",
     "value": {
@@ -16,7 +17,7 @@
     "subItemIndent": "10px"
   },
   "colors": {
-    "backgroundColor": "#f5fcff00",
+    "backgroundColor": "#1e1a4700",
     "menuHoverColor": "#ffffff80",
     "dropdownColor": "#ffffff00",
     "dropdownHoverColor": "#ffffff80"
@@ -48,7 +49,7 @@
       "fontStyle": "normal",
       "fontSize": "1.5rem",
       "lineHeight": 1,
-      "color": "#ffffff",
+      "color": "#0a0057",
       "marginTop": "4px",
       "marginBottom": "4px"
     }
