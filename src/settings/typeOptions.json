@@ -1,13 +1,13 @@
 {
   "general": {
-    "baseFontSizeSm": "16px",
-    "baseFontSizeLg": "18px"
+    "baseFontSizeSm": "1vw",
+    "baseFontSizeLg": "50%"
   },
   "p": {
     "fontFamily": "fontStack2",
     "fontWeight": "400",
     "fontStyle": "normal",
-    "fontSize": "1rem",
+    "fontSize": "2rem",
     "lineHeight": 1.5,
     "color": "#000000",
     "marginTop": "1em",
@@ -17,7 +17,7 @@
     "fontFamily": "fontStack1",
     "fontWeight": "800",
     "fontStyle": "normal",
-    "fontSize": "6rem",
+    "fontSize": "8rem",
     "lineHeight": 1.5,
     "color": "#000000",
     "marginTop": "1em",
@@ -27,7 +27,7 @@
     "fontFamily": "fontStack1",
     "fontWeight": "700",
     "fontStyle": "normal",
-    "fontSize": "3rem",
+    "fontSize": "5rem",
     "lineHeight": 1.25,
     "color": "#000000",
     "marginTop": "1em",
@@ -37,7 +37,7 @@
     "fontFamily": "fontStack2",
     "fontWeight": "700",
     "fontStyle": "normal",
-    "fontSize": "2NaNrem",
+    "fontSize": "2.5rem",
     "lineHeight": 1.25,
     "color": "#ffffff",
     "marginTop": "1em",

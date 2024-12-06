@@ -27,17 +27,17 @@
       "fontFamily": "fontStack1",
       "fontWeight": "400",
       "fontStyle": "normal",
-      "fontSize": "1.5rem",
+      "fontSize": "4rem",
       "lineHeight": 1,
       "color": "#ffffff",
-      "marginTop": "0.5rem",
-      "marginBottom": "0.5rem"
+      "marginTop": "2rem",
+      "marginBottom": "2rem"
     },
     "menuSub": {
       "fontFamily": "fontStack1",
       "fontWeight": "400",
       "fontStyle": "normal",
-      "fontSize": "1rem",
+      "fontSize": "2rem",
       "lineHeight": 1,
       "color": "#ffffff",
       "marginTop": "4px",
@@ -47,11 +47,11 @@
       "fontFamily": "fontStack3",
       "fontWeight": "400",
       "fontStyle": "normal",
-      "fontSize": "1.5rem",
+      "fontSize": "3rem",
       "lineHeight": 1,
       "color": "#0a0057",
-      "marginTop": "4px",
-      "marginBottom": "4px"
+      "marginTop": "4rem",
+      "marginBottom": "4rem"
     }
   }
 }
