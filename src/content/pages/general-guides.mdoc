@@ -32,19 +32,12 @@ customNavigation:
 
 {% CustomCSSWrapper
    customCSS="Y29sb3I6d2hpdGU7DQp3aWR0aDoxMDAlOw0KbWFyZ2luOjMwcHg7DQo=" %}
-## 
-
-{% MultiColumn
-   justifyContent="flex-start"
-   alignItems="center"
-   flexDirection="row"
-   gap="10px" %}
-{% Column targetWidth="40%" flexGrow=false %}
 {% CustomCSSWrapper
    customCSS="Y29sb3I6d2hpdGU7DQp0ZXh0LWFsaWduOmxlZnQ7DQptYXJnaW4tYm90dG9tOjUwcHg7" %}
 ## Board Control
 {% /CustomCSSWrapper %}
 
+{% CustomWidth width="80%" %}
 {% CustomCSSWrapper customCSS="Y29sb3I6d2hpdGU7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
 The first and most important thing you need to consider at all times is your board control. If your opponents has all their units on the board it may not be the best time to spend the turn setting up and playing it slow. If you focus on getting to a positive board state then you can pull off all of your biggest combos and strategies.
 {% /CustomCSSWrapper %}
@@ -57,10 +50,10 @@ In the above example the opponent is advancing with units and the player has the
    customCSS="Y29sb3I6d2hpdGU7DQp0ZXh0LWFsaWduOmxlZnQ7DQpzY2FsZTo5MCU7DQptYXJnaW4tdG9wOjUwcHg7DQo=" %}
 \*A card with the “Sanctify” keyword allows you to pay an extra price to upgrade the card. In this case upgrading the card allows it to spread damage across the entire board but would also leave you with no gold left
 {% /CustomCSSWrapper %}
-{% /Column %}
+{% /CustomWidth %}
 
-{% Column targetWidth="40%" flexGrow=false %}
-{% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
+{% CustomCSSWrapper
+   customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7DQptYXgtd2lkdGg6NzAwcHg7DQptYXJnaW4tdG9wOjUwcHg7DQptYXJnaW4tYm90dG9uOjUwcHg7" %}
 {% MultiColumn
    justifyContent="center"
    alignItems="center"
@@ -83,10 +76,10 @@ In the above example the opponent is advancing with units and the player has the
 {% ImagePopout
    image="/general-guides/Board-Control-Example.png"
    altText="Example of Board Control" /%}
+
+## 
 {% /CustomCSSWrapper %}
 {% /CustomCSSWrapper %}
-{% /Column %}
-{% /MultiColumn %}
 {% /CustomCSSWrapper %}
 
 {% CustomCSSWrapper
@@ -94,19 +87,12 @@ In the above example the opponent is advancing with units and the player has the
 
 {% CustomCSSWrapper
    customCSS="Y29sb3I6YmxhY2s7DQp3aWR0aDogMTAwJTsNCm1hcmdpbjozMHB4Ow==" %}
-## 
-
-{% MultiColumn
-   justifyContent="flex-start"
-   alignItems="flex-end"
-   flexDirection="row"
-   gap="10px" %}
-{% Column targetWidth="40%" flexGrow=false %}
 {% CustomCSSWrapper
    customCSS="Y29sb3I6d2hpdGU7Cm1hcmdpbi1ib3R0b206NTBweDs=" %}
 ## Combos/Synergy
 {% /CustomCSSWrapper %}
 
+{% CustomWidth width="80%" %}
 {% CustomCSSWrapper customCSS="Y29sb3I6d2hpdGU7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
 One central part of many decks is combos, with synergies being present in all top level decks being the little cousin of combos. Cards have “Synergy” when the effects of those cards play off of one another. Combos are when these synergies are used for more central and dominating strategies in the overall game plan of a player’s deck.
 {% /CustomCSSWrapper %}
@@ -114,9 +100,10 @@ One central part of many decks is combos, with synergies being present in all to
 {% CustomCSSWrapper customCSS="Y29sb3I6d2hpdGU7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
 In the example to the right I have a synergy between the two cards you see above. Northwood Ranger can deal 3 damage across the board but only when a wounded unit is on the field, the Wounded Deer spawns itself as a wounded unit and thus synergizes with Ranger since it can allow it to immediately activate it’s effect. This on the surface seems strong and like the best play here, so lets see the result of playing it.
 {% /CustomCSSWrapper %}
-{% /Column %}
+{% /CustomWidth %}
 
-{% Column targetWidth="40%" flexGrow=false %}
+{% CustomCSSWrapper
+   customCSS="bWF4LXdpZHRoOjcwMHB4OwptYXJnaW4tdG9wOjUwcHg7Cm1hcmdpbi1ib3R0b246NTBweDs=" %}
 {% MultiColumn
    justifyContent="center"
    alignItems="flex-start"
@@ -138,31 +125,24 @@ In the example to the right I have a synergy between the two cards you see above
 {% ImagePopout
    image="/general-guides/Combo-Synergy-Example1.png"
    altText="Example of combo/synergy" /%}
-{% /Column %}
-{% /MultiColumn %}
+{% /CustomCSSWrapper %}
 
-{% CustomCSSWrapper customCSS="Y29sb3I6YmxhY2s7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
-{% MultiColumn
-   justifyContent="flex-start"
-   alignItems="center"
-   flexDirection="row"
-   gap="5px" %}
-{% Column targetWidth="40%" flexGrow=false %}
-{% CustomCSSWrapper customCSS="Y29sb3I6d2hpdGU7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
+{% CustomWidth width="80%" %}
+{% CustomCSSWrapper
+   customCSS="Y29sb3I6d2hpdGU7DQp0ZXh0LWFsaWduOmxlZnQ7DQptYXJnaW4tdG9wOjUwcHg7" %}
 As you can see even with good positioning to block my castle this hasn’t really done much to advance my board state. If instead had used the Killer Rabbit card in my hand I could have just gotten rid of the enemy unit and used my combo on the next turn for better value.
 {% /CustomCSSWrapper %}
 
 {% CustomCSSWrapper customCSS="Y29sb3I6d2hpdGU7DQp0ZXh0LWFsaWduOmxlZnQ7" %}
 Sometimes it is better to conserve your combo or synergy for a better time. Knowing when to and when not to spend your synergy tools can be a key factor in what games you win.
 {% /CustomCSSWrapper %}
-{% /Column %}
+{% /CustomWidth %}
 
-{% Column targetWidth="40%" flexGrow=false %}
+{% CustomCSSWrapper
+   customCSS="bWF4LXdpZHRoOjcwMHB4OwptYXJnaW4tdG9wOjUwcHg7Cm1hcmdpbi1ib3R0b246NTBweDs=" %}
 {% ImagePopout
    image="/general-guides/Combo-Synergy-Example2.png"
    altText="Conclusion o fexample for combo/synergy" /%}
-{% /Column %}
-{% /MultiColumn %}
 {% /CustomCSSWrapper %}
 {% /CustomCSSWrapper %}
 
