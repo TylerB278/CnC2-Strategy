@@ -1,7 +1,7 @@
 {
   "general": {
-    "baseFontSizeSm": "1.2vw",
-    "baseFontSizeLg": "55%"
+    "baseFontSizeSm": "10px",
+    "baseFontSizeLg": "10px"
   },
   "p": {
     "fontFamily": "fontStack2",

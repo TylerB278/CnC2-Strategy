@@ -1,5 +1,5 @@
 {
-  "siteLogo": "public/siteLogo.webp",
+  "siteLogo": "/siteLogo.webp",
   "position": {
     "discriminant": "top",
     "value": {
